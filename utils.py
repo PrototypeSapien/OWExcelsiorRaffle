@@ -26,8 +26,8 @@ def cPrint(value, color):
 
 ## used to get the time wrapped in square brackets
 def stamp():
-    timestamp = str(datetime.now().strftime("%H:%M:%S.%f")[:-3])
-    return timestamp
+    	timestamp = str(datetime.now().strftime("%H:%M:%S.%f")[:-3])
+    	return timestamp
 
 ## just fetches the time (no square brackets)
 def rawStamp():
